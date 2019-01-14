@@ -15,6 +15,20 @@ Connection to MongoDB database implemented as extension method to IServiceCollec
 
 Access to the database occurs through repository in an asynchronous way.
 
+## Usage:
+The app works with cafes. For testing purposes, the main domain model is very simple and contains just a couple of properties. An example of a model:
+{
+  "id": "5c3b59fc1e8d463378c71878",
+  "name": "Felichita",
+  "description": "Pizza for all family",
+  "tags": [
+    "Family friendly",
+    "Pizza",
+    "Corner for kids"
+  ]
+}
+
+
 ## Technology stack:
 - ASP.NET Core 2.2
 - MongoDB Driver 2.7.2

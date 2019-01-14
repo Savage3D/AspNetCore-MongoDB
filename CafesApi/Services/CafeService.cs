@@ -33,7 +33,6 @@ namespace CafesApi.Services
 
         public async Task<Cafe> CreateCafeAsync(CreatedCafeDto createdCafe)
         {
-            // TODO: Use automapper for mapping objects
             Cafe cafe = new Cafe
             {
                 Name = createdCafe.Name,
